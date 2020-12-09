@@ -1,4 +1,4 @@
-import image from "./assets/image.png";
+import image from "./assets/js-master.png";
 import {
   TextBlock,
   TitleBlock,
@@ -11,7 +11,7 @@ export const model = [
     tag: "h2",
     styles: {
       background: "linear-gradient(to right, #ff0099, #493240)",
-      color: "#fff",
+      color: "green",
       "text-align": "center",
       padding: "1.5rem",
       "user-select": "none",
@@ -19,13 +19,13 @@ export const model = [
   }),
   new ImageBlock(image, {
     styles: {
-      padding: "2rem 0",
+      padding: "3rem 0",
       display: "grid",
       "justify-content": "center",
     },
     alt: "Это картинка",
     imageStyles: {
-      width: "500px",
+      width: "750px",
       height: "auto",
     },
   }),
