@@ -3,5 +3,6 @@
 dist
 node_modules
 .firebaserc
+.gitignore
 firebase.json
 package-lock.json
